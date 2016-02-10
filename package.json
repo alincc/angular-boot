@@ -1,6 +1,6 @@
 {
   "name": "fangular",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Fat version of Angular 2.x with TypeScript, that includes all required libraries",
   "main": "index.js",
   "scripts": {
