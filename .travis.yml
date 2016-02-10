@@ -5,5 +5,6 @@ deploy:
   email: alin.capitanescu+npm@gmail.com
   provider: npm
 
-before_script:
+install:
   - npm install -g tsd
+  - npm install
