@@ -2,17 +2,23 @@
   "name": "fangular",
   "version": "0.0.4",
   "description": "Fat version of Angular 2.x with TypeScript, that includes all required libraries",
+  
   "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  
   "keywords": [
     "angular2",
     "fat",
     "typescript"
   ],
+  
   "author": "Alin Capitanescu",
+  
   "license": "MIT",
+  
   "devDependencies": {
     "angular2": "2.0.0-beta.3",
     "angular2-polyfill": "0.0.2",
