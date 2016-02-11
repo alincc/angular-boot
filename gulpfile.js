@@ -12,7 +12,9 @@ gulp.task('default', function (callback) {
         './node_modules/angular2/bundles/angular2-polyfills.min.js',
         './node_modules/rxjs/bundles/Rx.js',
         './node_modules/typescript/lib/typescript.js',
-        './node_modules/angular2/bundles/angular2.dev.js'
+        './node_modules/angular2/bundles/angular2.dev.js',
+        './node_modules/angular2/bundles/http.min.js',
+        './node_modules/angular2/bundles/router.min.js'
     ])
         .pipe(concat('fangular.js'))
         .pipe(minify({
