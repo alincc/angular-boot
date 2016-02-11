@@ -1,11 +1,12 @@
 {
   "name": "fangular",
-  "version": "0.0.4",
-  "description": "Fat version of Angular 2.x with TypeScript, that includes all required libraries",
+  "version": "0.0.3",
+  "description": "Packed Angular 2.x with TypeScript including dependencies",
     
   "keywords": [
     "angular2",
-    "fat",
+    "starter",
+    "pack",
     "typescript"
   ],
   
