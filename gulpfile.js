@@ -15,6 +15,9 @@ gulp.task('default', function (callback) {
         './node_modules/angular2/bundles/angular2.dev.js'
     ])
         .pipe(concat('fangular.js'))
-        //.pipe(minify())
+        .pipe(minify({
+            mangle: false,
+            compress: false
+        }))
         .pipe(gulp.dest('./dist'));
 });
