@@ -1,7 +1,35 @@
 Angular 2.x with TypeScript, including dependencies to have a minimal playground.
 
 ### Usage
-run `npm install angular2-boot --save`
+1. Run
+`npm install angular2-boot --save`
+
+2. Update your index.html file to point to angular2-boot-min.js file
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/node_modules/angular2-boot/dist/angular2-boot-min.js"></script>
+</head>
+
+<body>
+    <hello>Booting...</hello>
+    <script>
+        System.config({
+            transpiler: 'typescript',
+            typescriptOptions: { emitDecoratorMetadata: true },
+            packages: {'app': {defaultExtension: 'ts'}}
+        });
+        System.import('app/bootstrap')
+                .then(null, console.error.bind(console));
+    </script>
+</body>
+</html>
+```
+
+
 
 ### What it contains
 - angular2 (2.0.0-beta.3)
