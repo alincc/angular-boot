@@ -5,7 +5,7 @@ Angular 2.x with TypeScript, including dependencies to have a minimal playground
 `npm install angular2-boot --save`
 
 2. Update your index.html file to point to angular2-boot-min.js file
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
