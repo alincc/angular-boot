@@ -16,7 +16,7 @@ gulp.task('default', function (callback) {
         './node_modules/angular2/bundles/http.min.js',
         './node_modules/angular2/bundles/router.min.js'
     ])
-        .pipe(concat('fangular.js'))
+        .pipe(concat('angular2-boot.js'))
         .pipe(minify({
             mangle: false,
             compress: false
