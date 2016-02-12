@@ -14,5 +14,5 @@ run `npm install angular2-boot --save`
 
 ### Demo 
 
-- [fangular-sample](https://github.com/alincc/angular2-boot-sample)
+- [angular-boot-sample](https://github.com/alincc/angular2-boot-sample)
 - [plnkr](http://plnkr.co/edit/N7vJo0agNZYSYBpQTb0y)
