@@ -42,5 +42,5 @@ Angular 2.x with TypeScript, including dependencies to have a minimal playground
 
 ### Demo 
 
-- [angular-boot-sample](https://github.com/alincc/angular2-boot-sample)
+- [angular2-boot-sample](https://github.com/alincc/angular2-boot-sample)
 - [plnkr](http://plnkr.co/edit/N7vJo0agNZYSYBpQTb0y)
