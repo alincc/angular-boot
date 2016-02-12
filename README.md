@@ -1,7 +1,7 @@
-Packed Angular 2.x with TypeScript, including dependencies to have a minimal playground.
+Angular 2.x with TypeScript, including dependencies to have a minimal playground.
 
 ### Usage
-run `npm install fangular --save`
+run `npm install angular2-boot --save`
 
 ### What it contains
 - angular2 (2.0.0-beta.3)
@@ -14,5 +14,5 @@ run `npm install fangular --save`
 
 ### Demo 
 
-- [fangular-sample](https://github.com/alincc/fangular-sample)
+- [fangular-sample](https://github.com/alincc/angular2-boot-sample)
 - [plnkr](http://plnkr.co/edit/N7vJo0agNZYSYBpQTb0y)
